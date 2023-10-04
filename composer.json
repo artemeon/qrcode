@@ -1,0 +1,21 @@
+{
+    "name": "artemeon/qrcode",
+    "description": "Wrapper package for bacon/bacon-qr-code",
+    "type": "library",
+    "require": {
+        "php": "^8.0",
+        "bacon/bacon-qr-code": "^2.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Artemeon\\QrCode\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marc Reichel",
+            "email": "marc.reichel@artemeon.de"
+        }
+    ]
+}
